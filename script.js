@@ -5,7 +5,7 @@ function checkTimeAndPlay() {
     document.getElementById('Breaking Bad.mp4').play();
   else {
     console.log("Time isn't match");
-    setTimeout(checkTimeAndPlay, 1000);
+    setTimeout(checkTimeAndPlay, 1);
   }
 }
 checkTimeAndPlay();
